@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListaDestinosComponent implements OnInit {
   destinos: string[];
   constructor() { 
-    this.destinos = ['Barcelona', 'Buenos Aires', 'Lima', 'Barranquilla'];
+    this.destinos = ['Barcelona', 'Buenos Aires', 'Lima', 'San José'];
   }
 
   ngOnInit(): void {
